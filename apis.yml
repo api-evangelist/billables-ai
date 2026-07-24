@@ -1,8 +1,16 @@
 aid: billables-ai
 name: Billables Ai
-description: Billables Ai is a company surfaced as a portfolio company of wing-venture-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Billables AI is a San Francisco based legal technology company that builds
+  AI-powered automatic time tracking software for lawyers, consultants, and
+  professional services firms. Its platform passively captures billable activity
+  as people work across the tools they already use — Microsoft 365, Outlook,
+  Teams, Zoom, Adobe, and the Chrome and Edge browsers — then uses AI to draft
+  time entries, assign the correct client and matter, and write narrative
+  descriptions, learning and adapting to each user over time. Privacy is
+  user-controlled, with only the individual able to view or edit their own time
+  records before they are submitted. The company is venture-backed (Series A)
+  and was surfaced through the Wing Venture Capital portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/billables-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,31 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/nsz5D0hsKyQIo9jhHmmJconKKs.png
 tags:
 - Company
+- Legal
+- Legal Tech
+- Time Tracking
+- Timekeeping
+- Billing
+- Artificial Intelligence
+- Professional Services
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://billables.ai/
+- type: Blog
+  url: https://billables.ai/blog
+- type: Support
+  url: https://billables.ai/contact
+- type: SignUp
+  url: https://accounts.billables.ai/sign-in
+- type: Login
+  url: https://accounts.billables.ai/sign-in
+- type: TermsOfService
+  url: https://billables.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://billables.ai/privacy-policy
+- type: TrustCenter
+  url: https://trust.billables.ai/
+- type: DomainSecurity
+  url: security/billables-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

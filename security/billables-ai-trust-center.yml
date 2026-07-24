@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.billables.ai/
+url: https://trust.billables.ai/
+platform: Vanta Trust Center
+# Certifications are gated behind the Vanta Trust Center (JavaScript-rendered / access-controlled)
+# and could not be enumerated verbatim from the public shell. Recorded as unknown rather than fabricated.
+certifications: []
+evidence:
+- source: https://trust.billables.ai/
+  keywords:
+  - trust center
+  - security
+  - compliance
+  - vanta
+  note: Live Vanta-hosted Trust Center titled "Billables AI Trust Center"
