@@ -1,0 +1,26 @@
+# Front Door AI Index — billables-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: billables-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: billables.ai
+  final_host: billables.ai
+  ownership: own
+  owner: billables-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 39
+  host_score: 39
+  density: 23.94
+  words: 1629
+  tiers:
+    agentic: 0
+    core: 39
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 39
+    intelligence: 1
