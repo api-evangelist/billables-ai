@@ -1,0 +1,44 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://billables.ai/pricing
+sources:
+- https://billables.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Monthly/Yearly toggle with '15% off' yearly. No minimum users or term, no setup fee; custom/volume
+  discount pricing via contact.
+plan_count: 3
+currency: USD
+plans:
+- name: Single
+  price_text: $47 /user /month
+  price: 47
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 1 Workflow Integration (e.g. email); Practice Management Integration
+- name: Standard
+  price_text: $109 /user /month
+  price: 109
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Unlimited Workflow Integrations; Training & Onboarding Resources; Analytics
+- name: Premium
+  price_text: $169 /user /month
+  price: 169
+  currency: USD
+  period: month
+  unit: user
+  included_quota: All Standard features; Delegated access; SSO; Prebill Review; Unlimited Insights Queries;
+    Compliance Checks
