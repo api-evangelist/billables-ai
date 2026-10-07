@@ -61,6 +61,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://billables.ai/pricing
+- type: Plans
+  url: plans/billables-ai-plans-pricing.yml
 - type: Website
   url: https://billables.ai/
 - type: Blog
